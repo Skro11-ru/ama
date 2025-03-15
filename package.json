@@ -2,13 +2,15 @@
   "name": "ama",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://skro11-ru.github.io/ama/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
-    "pwa": "pwa-assets-generator"
+    "pwa": "pwa-assets-generator",
+    "deploy" : "gh-pages -d dist"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
@@ -22,5 +24,8 @@
     "typescript": "~5.6.2",
     "vite": "^6.0.5",
     "vite-plugin-pwa": "^0.21.1"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
