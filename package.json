@@ -8,9 +8,10 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
-    "pwa": "pwa-assets-generator",
-    "deploy" : "gh-pages -d dist"
+    "pwa": "pwa-assets-generator"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
