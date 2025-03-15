@@ -1,5 +1,4 @@
 
-<main>
 	<button on:click={update}>Обновить</button>
 	<button on:click={()=>{
 		if(lang==='ru'){
@@ -28,7 +27,6 @@
 			</div>
 		{/each}
 	</div>
-</main>
 
 <script lang="ts">
 	import { onMount } from "svelte";
@@ -129,7 +127,7 @@
 		}
 
 		&.learn{
-			grid-template-columns: repeat(20,1fr);
+			grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 		}
 	}
 	.logo {
@@ -146,11 +144,9 @@
 	}
 
 	.logo:hover {
-		filter: drop-shadow(0 0 2em #646cffaa);
+		filter: drop-shadow(0 0 1em #646cffaa);
 	}
-	.logo.svelte:hover {
-		filter: drop-shadow(0 0 2em #ff3e00aa);
-	}
+
 	.read-the-docs {
 		color: #888;
 	}

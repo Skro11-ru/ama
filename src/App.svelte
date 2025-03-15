@@ -7,4 +7,7 @@ import Game from "@/core/views/Game/Game.svelte";
 </main>
 
 <style lang="scss">
+  main{
+    padding: 1rem;
+  }
 </style>
