@@ -2,7 +2,6 @@
   "name": "ama",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://skro11-ru.github.io/ama/",
   "type": "module",
   "scripts": {
     "dev": "vite",
