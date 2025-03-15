@@ -1,32 +1,24 @@
+<div class="buttons">
+	{#each devButtons as btn}
+		<button on:click={btn.cb}>{btn.title}</button>
+	{/each}
+</div>
 
-	<button on:click={update}>Обновить</button>
-	<button on:click={()=>{
-		if(lang==='ru'){
-			lang='en'
-		}else{
-			lang='ru'
-		}
-	}}>{lang}</button>
-	<button on:click={()=>{
-		mode=isLearn?'guess':'learn'
+<div class="logos" class:learn={mode==='learn'}>
+	{#each array as brand}
+		<div
+			class="logo"
+			class:yes={brand.title === searched.title &&
+				brand.title === selected?.title}
+			class:no={brand.title === selected?.title}
+		>
+			<button class="btn" on:click={() => onClick(brand)}>
+				<img src={brand.logo} alt={brand.title.ru} title={brand.title.ru}  />
+			</button>
 
-	}}>mode: {mode}</button>
-	{searched.titleRu}
-	<div class="logos" class:learn={mode==='learn'}>
-		{#each array as brand}
-			<div
-				class="logo"
-				class:yes={brand.title === searched.title &&
-					brand.title === selected?.title}
-				class:no={brand.title === selected?.title}
-			>
-				<button class="btn" on:click={() => onClick(brand)}>
-					<img src={brand.logo} alt={brand.title.ru} title={brand.title.ru}  />
-				</button>
-
-			</div>
-		{/each}
-	</div>
+		</div>
+	{/each}
+</div>
 
 <script lang="ts">
 import { onMount } from 'svelte';
@@ -59,6 +51,25 @@ $: currentLang = LANG[lang];
 let mode: 'guess' | 'learn' = 'guess';
 $: isLearn = mode === 'learn';
 
+const devButtons = [
+	{
+		title: 'Обновить',
+		cb: () => update(),
+	},
+	{
+		title: lang,
+		cb: () => {
+			lang = lang === 'en' ? 'ru' : 'en';
+		},
+	},
+	{
+		title: mode,
+		cb: () => {
+			mode = isLearn ? 'guess' : 'learn';
+		},
+	},
+];
+
 const say = (text) => {
 	if ('speechSynthesis' in window) {
 		const utterance = new SpeechSynthesisUtterance(text);
@@ -79,7 +90,7 @@ const say = (text) => {
 	}
 };
 
-$: count ? say(`${searched.title.en}`) : undefined;
+$: count ? say(`${searched.title[lang]}`) : undefined;
 const update = () => {
 	count += 1;
 };
@@ -106,27 +117,40 @@ onMount(() => {
 
 
 <style lang="scss">
+	.buttons{
+		display: flex;
+		justify-content: center;
+		gap: 5px;
+		margin-bottom: 5px;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
 	.logos {
 		display: grid;
-		grid-template-columns: repeat(2,1fr);
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+		justify-content: center;
 		gap: 10px;
-
+		user-select: none;
 		.btn {
 			background: none;
 			padding: 0;
 			border: none;
 			all: unset;
 			cursor: pointer;
+			user-select: none;
 			width: 100%;
 			height: 100%;
 			img{
 				width: 100%;
 				height: 100%;
+				user-select: none;
 			}
 		}
 
 		&.learn{
-			grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+			//grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 		}
 	}
 	.logo {
@@ -141,10 +165,6 @@ onMount(() => {
 		&.yes {
 			background-color: greenyellow;
 		}
-	}
-
-	.logo:hover {
-		filter: drop-shadow(0 0 1em #646cffaa);
 	}
 
 	.read-the-docs {
