@@ -8,10 +8,11 @@ export default defineConfig({
     // base: '/ama/',
     plugins: [svelte(), VitePWA({
         registerType: 'autoUpdate', manifest: {
-            name: 'My Awesome App',
-            short_name: 'MyApp',
-            description: 'My Awesome App description',
+            name: 'AutoMania',
+            short_name: 'AutoMania',
+            description: 'A fun educational game for kids in which you have to guess the makes and models of cars!',
             theme_color: '#ffffff',
+            "display": "standalone",
             "icons": [
                 {
                     "src": "pwa-64x64.png",
