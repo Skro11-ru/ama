@@ -104,10 +104,22 @@ const onClick = (logo) => {
 	console.log('click', logo);
 	selected = { ...logo };
 
+	let timer = 1000;
+	let audio;
+
+	if (searched.title[lang] === selected?.title[lang]) {
+		audio = new Audio('/sounds/yes.mp3');
+	} else {
+		audio = new Audio('/sounds/no.mp3');
+		timer = 2500;
+	}
+	audio.playbackRate = 1.5;
+	audio.play();
+
 	setTimeout(() => {
 		count += 1;
 		selected = undefined;
-	}, 1000);
+	}, timer);
 };
 
 onMount(() => {
