@@ -1,6 +1,5 @@
 
 <main>
-	{count}
 	<button on:click={update}>Обновить</button>
 	<button on:click={()=>{
 		if(lang==='ru'){
@@ -23,7 +22,7 @@
 				class:no={brand.title === selected?.title}
 			>
 				<button class="btn" on:click={() => onClick(brand)}>
-					<img src={brand.logo} alt={brand.title.ru} title={brand.title.ru} width="200" />
+					<img src={brand.logo} alt={brand.title.ru} title={brand.title.ru}  />
 				</button>
 
 			</div>
@@ -121,6 +120,12 @@
 			border: none;
 			all: unset;
 			cursor: pointer;
+			width: 100%;
+			height: 100%;
+			img{
+				width: 100%;
+				height: 100%;
+			}
 		}
 
 		&.learn{
