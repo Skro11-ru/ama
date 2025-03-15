@@ -16,7 +16,7 @@ export const brands: Brands[] = [
 			en: "Volkswagen",
 		},
 		show: true,
-		logo: "src/assets/images/logos/vw.svg",
+		logo: "/logos/vw.svg",
 	},
 	{
 		title: {
@@ -24,7 +24,7 @@ export const brands: Brands[] = [
 			en: "Škoda",
 		},
 		show: true,
-		logo: "src/assets/images/logos/skoda.svg",
+		logo: "/logos/skoda.svg",
 	},
 	{
 		title: {
@@ -32,7 +32,7 @@ export const brands: Brands[] = [
 			en: "Peugeot",
 		},
 		show: true,
-		logo: "src/assets/images/logos/peugeot.svg",
+		logo: "/logos/peugeot.svg",
 	},
 	{
 		title: {
@@ -40,7 +40,7 @@ export const brands: Brands[] = [
 			en: "Mercedes- show:true,Benz",
 		},
 		show: true,
-		logo: "src/assets/images/logos/mercedes.svg",
+		logo: "/logos/mercedes.svg",
 	},
 	{
 		title: {
@@ -48,7 +48,7 @@ export const brands: Brands[] = [
 			en: "Kia",
 		},
 		show: true,
-		logo: "src/assets/images/logos/kia.svg",
+		logo: "/logos/kia.svg",
 	},
 	{
 		title: {
@@ -56,7 +56,7 @@ export const brands: Brands[] = [
 			en: "Hyundai",
 		},
 		show: true,
-		logo: "src/assets/images/logos/hyundai.svg",
+		logo: "/logos/hyundai.svg",
 	},
 	{
 		title: {
@@ -64,7 +64,7 @@ export const brands: Brands[] = [
 			en: "Ford",
 		},
 		show: true,
-		logo: "src/assets/images/logos/ford.svg",
+		logo: "/logos/ford.svg",
 	},
 	{
 		title: {
@@ -72,7 +72,7 @@ export const brands: Brands[] = [
 			en: "Fiat",
 		},
 		show: false,
-		logo: "src/assets/images/logos/fiat.svg",
+		logo: "/logos/fiat.svg",
 	},
 	{
 		title: {
@@ -80,7 +80,7 @@ export const brands: Brands[] = [
 			en: "Dacia",
 		},
 		show: true,
-		logo: "src/assets/images/logos/dacia.svg",
+		logo: "/logos/dacia.svg",
 	},
 	{
 		title: {
@@ -88,7 +88,7 @@ export const brands: Brands[] = [
 			en: "Citroën",
 		},
 		show: true,
-		logo: "src/assets/images/logos/citroen.svg",
+		logo: "/logos/citroen.svg",
 	},
 	{
 		title: {
@@ -96,7 +96,7 @@ export const brands: Brands[] = [
 			ru: "БМВ",
 		},
 		show: true,
-		logo: "src/assets/images/logos/bmw.svg",
+		logo: "/logos/bmw.svg",
 	},
 	{
 		title: {
@@ -104,7 +104,7 @@ export const brands: Brands[] = [
 			ru: "Джип",
 		},
 		show: true,
-		logo: "src/assets/images/logos/jeep.svg",
+		logo: "/logos/jeep.svg",
 	},
 	{
 		title: {
@@ -112,7 +112,7 @@ export const brands: Brands[] = [
 			ru: "Ягуар",
 		},
 		show: true,
-		logo: "src/assets/images/logos/jaguar.svg",
+		logo: "/logos/jaguar.svg",
 	},
 	{
 		title: {
@@ -120,7 +120,7 @@ export const brands: Brands[] = [
 			ru: "Ивеко",
 		},
 		show: false,
-		logo: "src/assets/images/logos/iveco.svg",
+		logo: "/logos/iveco.svg",
 	},
 	{
 		title: {
@@ -128,7 +128,7 @@ export const brands: Brands[] = [
 			ru: "Исузу",
 		},
 		show: false,
-		logo: "src/assets/images/logos/isuzu.svg",
+		logo: "/logos/isuzu.svg",
 	},
 	{
 		title: {
@@ -136,7 +136,7 @@ export const brands: Brands[] = [
 			ru: "Инфинити",
 		},
 		show: true,
-		logo: "src/assets/images/logos/infiniti.svg",
+		logo: "/logos/infiniti.svg",
 	},
 	{
 		title: {
@@ -144,7 +144,7 @@ export const brands: Brands[] = [
 			ru: "Хаммер",
 		},
 		show: true,
-		logo: "src/assets/images/logos/hummer.svg",
+		logo: "/logos/hummer.svg",
 	},
 	{
 		title: {
@@ -152,7 +152,7 @@ export const brands: Brands[] = [
 			ru: "Хонда",
 		},
 		show: true,
-		logo: "src/assets/images/logos/honda.svg",
+		logo: "/logos/honda.svg",
 	},
 	{
 		title: {
@@ -160,7 +160,7 @@ export const brands: Brands[] = [
 			ru: "Ниссан",
 		},
 		show: true,
-		logo: "src/assets/images/logos/nissan.svg",
+		logo: "/logos/nissan.svg",
 	},
 	{
 		title: {
@@ -168,7 +168,7 @@ export const brands: Brands[] = [
 			ru: "Москвич",
 		},
 		show: true,
-		logo: "src/assets/images/logos/moskvich.svg",
+		logo: "/logos/moskvich.svg",
 	},
 	{
 		title: {
@@ -176,7 +176,7 @@ export const brands: Brands[] = [
 			ru: "Митсубиси",
 		},
 		show: true,
-		logo: "src/assets/images/logos/mitsubishi.svg",
+		logo: "/logos/mitsubishi.svg",
 	},
 	{
 		title: {
@@ -184,7 +184,7 @@ export const brands: Brands[] = [
 			ru: "МГ",
 		},
 		show: false,
-		logo: "src/assets/images/logos/mg-png.svg",
+		logo: "/logos/mg-png.svg",
 	},
 	{
 		title: {
@@ -192,7 +192,7 @@ export const brands: Brands[] = [
 			ru: "Макларен",
 		},
 		show: true,
-		logo: "src/assets/images/logos/mclaren.svg",
+		logo: "/logos/mclaren.svg",
 	},
 	{
 		title: {
@@ -200,7 +200,7 @@ export const brands: Brands[] = [
 			ru: "Мазда",
 		},
 		show: true,
-		logo: "src/assets/images/logos/mazda-png.svg",
+		logo: "/logos/mazda-png.svg",
 	},
 	{
 		title: {
@@ -208,7 +208,7 @@ export const brands: Brands[] = [
 			ru: "Матра",
 		},
 		show: false,
-		logo: "src/assets/images/logos/matra.svg",
+		logo: "/logos/matra.svg",
 	},
 	{
 		title: {
@@ -216,7 +216,7 @@ export const brands: Brands[] = [
 			ru: "Мазерати",
 		},
 		show: true,
-		logo: "src/assets/images/logos/maserati.svg",
+		logo: "/logos/maserati.svg",
 	},
 	{
 		title: {
@@ -224,7 +224,7 @@ export const brands: Brands[] = [
 			ru: "Салин",
 		},
 		show: false,
-		logo: "src/assets/images/logos/saleen.svg",
+		logo: "/logos/saleen.svg",
 	},
 	{
 		title: {
@@ -232,7 +232,7 @@ export const brands: Brands[] = [
 			ru: "Сааб",
 		},
 		show: false,
-		logo: "src/assets/images/logos/saab.svg",
+		logo: "/logos/saab.svg",
 	},
 	{
 		title: {
@@ -240,7 +240,7 @@ export const brands: Brands[] = [
 			ru: "Ровер",
 		},
 		show: false,
-		logo: "src/assets/images/logos/rover.svg",
+		logo: "/logos/rover.svg",
 	},
 	{
 		title: {
@@ -248,7 +248,7 @@ export const brands: Brands[] = [
 			en: "Rolls- show:true,Royce",
 		},
 		show: true,
-		logo: "src/assets/images/logos/rolls-royce.svg",
+		logo: "/logos/rolls-royce.svg",
 	},
 	{
 		title: {
@@ -256,7 +256,7 @@ export const brands: Brands[] = [
 			ru: "Прага",
 		},
 		show: false,
-		logo: "src/assets/images/logos/praga.svg",
+		logo: "/logos/praga.svg",
 	},
 	{
 		title: {
@@ -264,7 +264,7 @@ export const brands: Brands[] = [
 			ru: "Порше",
 		},
 		show: true,
-		logo: "src/assets/images/logos/porsche.svg",
+		logo: "/logos/porsche.svg",
 	},
 	{
 		title: {
@@ -272,7 +272,7 @@ export const brands: Brands[] = [
 			ru: "Понтиак",
 		},
 		show: true,
-		logo: "src/assets/images/logos/pontiac-png.svg",
+		logo: "/logos/pontiac-png.svg",
 	},
 	{
 		title: {
@@ -280,7 +280,7 @@ export const brands: Brands[] = [
 			ru: "Вольво",
 		},
 		show: true,
-		logo: "src/assets/images/logos/volvo.svg",
+		logo: "/logos/volvo.svg",
 	},
 	{
 		title: {
@@ -288,7 +288,7 @@ export const brands: Brands[] = [
 			ru: "Вентури",
 		},
 		show: false,
-		logo: "src/assets/images/logos/venturi.svg",
+		logo: "/logos/venturi.svg",
 	},
 	{
 		title: {
@@ -296,7 +296,7 @@ export const brands: Brands[] = [
 			ru: "Трабант",
 		},
 		show: true,
-		logo: "src/assets/images/logos/trabant.svg",
+		logo: "/logos/trabant.svg",
 	},
 	{
 		title: {
@@ -304,7 +304,7 @@ export const brands: Brands[] = [
 			ru: "Тойота",
 		},
 		show: true,
-		logo: "src/assets/images/logos/toyota.svg",
+		logo: "/logos/toyota.svg",
 	},
 	{
 		title: {
@@ -312,7 +312,7 @@ export const brands: Brands[] = [
 			ru: "Тесла",
 		},
 		show: true,
-		logo: "src/assets/images/logos/tesla.svg",
+		logo: "/logos/tesla.svg",
 	},
 	{
 		title: {
@@ -320,7 +320,7 @@ export const brands: Brands[] = [
 			ru: "Татра",
 		},
 		show: false,
-		logo: "src/assets/images/logos/tatra.svg",
+		logo: "/logos/tatra.svg",
 	},
 	{
 		title: {
@@ -328,7 +328,7 @@ export const brands: Brands[] = [
 			ru: "Сузуки",
 		},
 		show: true,
-		logo: "src/assets/images/logos/suzuki.svg",
+		logo: "/logos/suzuki.svg",
 	},
 	{
 		title: {
@@ -336,7 +336,7 @@ export const brands: Brands[] = [
 			ru: "Субару",
 		},
 		show: true,
-		logo: "src/assets/images/logos/subaru-png.svg",
+		logo: "/logos/subaru-png.svg",
 	},
 	{
 		title: {
@@ -344,7 +344,7 @@ export const brands: Brands[] = [
 			ru: "Ссанг Йонг",
 		},
 		show: true,
-		logo: "src/assets/images/logos/ssangyong.svg",
+		logo: "/logos/ssangyong.svg",
 	},
 	{
 		title: {
@@ -352,7 +352,7 @@ export const brands: Brands[] = [
 			ru: "Смарт",
 		},
 		show: false,
-		logo: "src/assets/images/logos/smart.svg",
+		logo: "/logos/smart.svg",
 	},
 	{
 		title: {
@@ -360,7 +360,7 @@ export const brands: Brands[] = [
 			ru: "Симка",
 		},
 		show: false,
-		logo: "src/assets/images/logos/simca.svg",
+		logo: "/logos/simca.svg",
 	},
 	{
 		title: {
@@ -368,7 +368,7 @@ export const brands: Brands[] = [
 			ru: "Сеат",
 		},
 		show: true,
-		logo: "src/assets/images/logos/seat.svg",
+		logo: "/logos/seat.svg",
 	},
 	{
 		title: {
@@ -376,7 +376,7 @@ export const brands: Brands[] = [
 			ru: "МАН",
 		},
 		show: true,
-		logo: "src/assets/images/logos/man.svg",
+		logo: "/logos/man.svg",
 	},
 	{
 		title: {
@@ -384,7 +384,7 @@ export const brands: Brands[] = [
 			ru: "Махиндра",
 		},
 		show: true,
-		logo: "src/assets/images/logos/mahindra.svg",
+		logo: "/logos/mahindra.svg",
 	},
 	{
 		title: {
@@ -392,7 +392,7 @@ export const brands: Brands[] = [
 			ru: "Магма",
 		},
 		show: true,
-		logo: "src/assets/images/logos/magma.svg",
+		logo: "/logos/magma.svg",
 	},
 	{
 		title: {
@@ -400,7 +400,7 @@ export const brands: Brands[] = [
 			ru: "Линкольн",
 		},
 		show: false,
-		logo: "src/assets/images/logos/lincoln.svg",
+		logo: "/logos/lincoln.svg",
 	},
 	{
 		title: {
@@ -408,7 +408,7 @@ export const brands: Brands[] = [
 			ru: "ЛИАЗ",
 		},
 		show: true,
-		logo: "src/assets/images/logos/liaz.svg",
+		logo: "/logos/liaz.svg",
 	},
 	{
 		title: {
@@ -416,15 +416,15 @@ export const brands: Brands[] = [
 			ru: "Лексус",
 		},
 		show: true,
-		logo: "src/assets/images/logos/lexus.svg",
+		logo: "/logos/lexus.svg",
 	},
 	{
 		title: {
 			ru: "Ленд Ровер",
-			en: "Land Rover show:true,",
+			en: "Land Rover",
 		},
 		show: true,
-		logo: "src/assets/images/logos/land-rover.svg",
+		logo: "/logos/land-rover.svg",
 	},
 	{
 		title: {
@@ -432,7 +432,7 @@ export const brands: Brands[] = [
 			ru: "Ламборгини",
 		},
 		show: true,
-		logo: "src/assets/images/logos/lamborghini.svg",
+		logo: "/logos/lamborghini.svg",
 	},
 	{
 		title: {
@@ -440,7 +440,7 @@ export const brands: Brands[] = [
 			ru: "Лада",
 		},
 		show: true,
-		logo: "src/assets/images/logos/lada-png.svg",
+		logo: "/logos/lada-png.svg",
 	},
 	{
 		title: {
@@ -448,7 +448,7 @@ export const brands: Brands[] = [
 			ru: "Кёнигсегг",
 		},
 		show: false,
-		logo: "src/assets/images/logos/koenigsegg.svg",
+		logo: "/logos/koenigsegg.svg",
 	},
 	{
 		title: {
@@ -456,7 +456,7 @@ export const brands: Brands[] = [
 			en: "Great Wall show:true,",
 		},
 		show: true,
-		logo: "src/assets/images/logos/great-wall.svg",
+		logo: "/logos/great-wall.svg",
 	},
 	{
 		title: {
@@ -464,7 +464,7 @@ export const brands: Brands[] = [
 			ru: "Гордон",
 		},
 		show: false,
-		logo: "src/assets/images/logos/gordon.svg",
+		logo: "/logos/gordon.svg",
 	},
 	{
 		title: {
@@ -472,7 +472,7 @@ export const brands: Brands[] = [
 			ru: "Феррари",
 		},
 		show: true,
-		logo: "src/assets/images/logos/ferrari.svg",
+		logo: "/logos/ferrari.svg",
 	},
 	{
 		title: {
@@ -480,7 +480,7 @@ export const brands: Brands[] = [
 			ru: "Додж",
 		},
 		show: true,
-		logo: "src/assets/images/logos/dodge.svg",
+		logo: "/logos/dodge.svg",
 	},
 	{
 		title: {
@@ -488,7 +488,7 @@ export const brands: Brands[] = [
 			ru: "Датсун",
 		},
 		show: true,
-		logo: "src/assets/images/logos/datsun.svg",
+		logo: "/logos/datsun.svg",
 	},
 	{
 		title: {
@@ -496,7 +496,7 @@ export const brands: Brands[] = [
 			ru: "Дайхатсу",
 		},
 		show: false,
-		logo: "src/assets/images/logos/daihatsu.svg",
+		logo: "/logos/daihatsu.svg",
 	},
 	{
 		title: {
@@ -504,7 +504,7 @@ export const brands: Brands[] = [
 			ru: "ДАФ",
 		},
 		show: true,
-		logo: "src/assets/images/logos/daf.svg",
+		logo: "/logos/daf.svg",
 	},
 	{
 		title: {
@@ -512,7 +512,7 @@ export const brands: Brands[] = [
 			en: "Daewoo Avia show:true,",
 		},
 		show: true,
-		logo: "src/assets/images/logos/daewoo-avia.svg",
+		logo: "/logos/daewoo-avia.svg",
 	},
 	{
 		title: {
@@ -520,7 +520,7 @@ export const brands: Brands[] = [
 			ru: "Дэу",
 		},
 		show: true,
-		logo: "src/assets/images/logos/daewoo-png.svg",
+		logo: "/logos/daewoo-png.svg",
 	},
 	{
 		title: {
@@ -528,7 +528,7 @@ export const brands: Brands[] = [
 			ru: "Купра",
 		},
 		show: false,
-		logo: "src/assets/images/logos/cupra.svg",
+		logo: "/logos/cupra.svg",
 	},
 	{
 		title: {
@@ -536,7 +536,7 @@ export const brands: Brands[] = [
 			en: "Mini Cooper show:true,",
 		},
 		show: true,
-		logo: "src/assets/images/logos/mini-cooper.svg",
+		logo: "/logos/mini-cooper.svg",
 	},
 	{
 		title: {
@@ -544,7 +544,7 @@ export const brands: Brands[] = [
 			ru: "Крайслер",
 		},
 		show: true,
-		logo: "src/assets/images/logos/chrysler.svg",
+		logo: "/logos/chrysler.svg",
 	},
 	{
 		title: {
@@ -552,7 +552,7 @@ export const brands: Brands[] = [
 			ru: "Шевроле",
 		},
 		show: true,
-		logo: "src/assets/images/logos/chevrolet.svg",
+		logo: "/logos/chevrolet.svg",
 	},
 	{
 		title: {
@@ -560,7 +560,7 @@ export const brands: Brands[] = [
 			ru: "Кадиллак",
 		},
 		show: true,
-		logo: "src/assets/images/logos/cadillac.svg",
+		logo: "/logos/cadillac.svg",
 	},
 	{
 		title: {
@@ -568,7 +568,7 @@ export const brands: Brands[] = [
 			ru: "Бьюик",
 		},
 		show: true,
-		logo: "src/assets/images/logos/buick.svg",
+		logo: "/logos/buick.svg",
 	},
 	{
 		title: {
@@ -576,7 +576,7 @@ export const brands: Brands[] = [
 			ru: "Бугатти",
 		},
 		show: true,
-		logo: "src/assets/images/logos/bugatti.svg",
+		logo: "/logos/bugatti.svg",
 	},
 	{
 		title: {
@@ -584,7 +584,7 @@ export const brands: Brands[] = [
 			ru: "Бентли",
 		},
 		show: true,
-		logo: "src/assets/images/logos/bentley.svg",
+		logo: "/logos/bentley.svg",
 	},
 	{
 		title: {
@@ -592,7 +592,7 @@ export const brands: Brands[] = [
 			en: "Aston Martin show:true,",
 		},
 		show: true,
-		logo: "src/assets/images/logos/aston-martin.svg",
+		logo: "/logos/aston-martin.svg",
 	},
 	{
 		title: {
@@ -600,7 +600,7 @@ export const brands: Brands[] = [
 			en: "Alfa Romeo show:true,",
 		},
 		show: true,
-		logo: "src/assets/images/logos/alfa-romeo.svg",
+		logo: "/logos/alfa-romeo.svg",
 	},
 	{
 		title: {
@@ -608,7 +608,7 @@ export const brands: Brands[] = [
 			ru: "Рено",
 		},
 		show: true,
-		logo: "src/assets/images/logos/renault.svg",
+		logo: "/logos/renault.svg",
 	},
 	{
 		title: {
@@ -616,7 +616,7 @@ export const brands: Brands[] = [
 			ru: "Опель",
 		},
 		show: true,
-		logo: "src/assets/images/logos/opel.svg",
+		logo: "/logos/opel.svg",
 	},
 	{
 		title: {
@@ -624,6 +624,6 @@ export const brands: Brands[] = [
 			ru: "Ауди",
 		},
 		show: true,
-		logo: "src/assets/images/logos/audi.svg",
+		logo: "/logos/audi.svg",
 	},
 ];
